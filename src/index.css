@@ -1,4 +1,58 @@
 @import-normalize; /* bring in normalize.css styles */
+/* Сброс отступов и отступов от краев для всех элементов */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Сброс стандартного текстового стиля */
+body, p, h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+/* Сброс списков */
+ul, ol {
+  list-style: none;
+}
+
+/* Сброс стандартного стиля ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Сброс стандартного стиля заголовков */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Сброс стандартного стиля кнопок */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Сброс стандартного стиля полей ввода */
+input, textarea {
+  border: none;
+  outline: none;
+}
+
+/* Сброс стандартного стиля списков */
+ul, ol {
+  padding-left: 0;
+}
+
+/* Сброс стандартного стиля изображений */
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 body {
   margin: 0;
@@ -7,6 +61,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
 }
 
 code {

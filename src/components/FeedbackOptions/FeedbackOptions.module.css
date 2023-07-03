@@ -1,0 +1,32 @@
+.btn-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.fdb-btn {
+  font-size: 14px;
+  border: 1px solid orange;
+  border-radius: 4px;
+  min-width: 60px;
+  padding: 8px;
+  background-color: aqua;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  justify-content: space-around;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.fdb-btn:hover {
+  background-color: #8ac0bd;
+}
+
+.fdb-btn:active {
+  background-color: #4a7674;
+}

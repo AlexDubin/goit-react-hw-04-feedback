@@ -1,0 +1,7 @@
+.nofeedback {
+  display: flex;
+  width: 352px;
+  text-align: center;
+  justify-content: center;
+  font-size: 22px;
+}
